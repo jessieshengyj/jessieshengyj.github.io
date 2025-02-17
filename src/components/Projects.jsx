@@ -5,8 +5,8 @@ function Projects() {
         <div className="projects">
             <h2>Projects</h2>
             <ul>
-                <li>Portfolio Website</li>
-                <li>E-commerce Platform</li>
+                <li>Termiknow</li>
+                <li>Toasters</li>
             </ul>
         </div>
     );

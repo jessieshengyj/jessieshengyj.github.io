@@ -4,7 +4,7 @@ function Experience() {
     return (
         <div className="experience">
             <h2>Experience</h2>
-            <p>Frontend Developer at ...</p>
+            <p>Frontend Developer at Excelar</p>
         </div>
     );
 }
