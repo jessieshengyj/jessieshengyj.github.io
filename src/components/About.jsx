@@ -3,8 +3,8 @@ import "./About.scss";
 function About() {
     return (
         <div className="about flex justify-center px-4">
-            <div className="chat chat-start w-full max-w-lg md:max-w-1/2">
-                <div className="chat-image avatar avatar-online">
+            <div className="chat chat-start w-full max-w-lg md:max-w-53/100">
+                <div className="chat-image avatar avatar-online ml-[5vw]">
                     <div className="w-32 h-32 rounded-full">
                         <img
                             alt="Jessie's Avatar"
