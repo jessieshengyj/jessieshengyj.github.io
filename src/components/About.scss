@@ -8,4 +8,8 @@
   p {
     @apply text-gray-300 mt-2;
   }
+
+  .avatar-online::before {
+    background-color: limegreen;
+  }
 }
