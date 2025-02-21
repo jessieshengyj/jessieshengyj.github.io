@@ -6,7 +6,7 @@ function Experience() {
             <h2 className="text-2xl font-bold mb-6">Experience</h2>
             <ul className="timeline timeline-vertical w-full max-w-lg md:max-w-3/5">
                 <li>
-                    <div className="timeline-end font-mono italic text-sm">May 2025 - Aug 2025</div>
+                    <div className="timeline-end font-mono italic text-sm">May 2025 – Aug 2025</div>
                     <div className="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              className="h-5 w-5">
@@ -59,7 +59,7 @@ function Experience() {
                     </div>
                     <div className="timeline-start timeline-box">
                         <div className="font-bold text-base">Software Engineer Intern @ Excelar</div>
-                        <div className="mt-2">Front-end Developer for Careflow Platform</div>
+                        <div className="mt-2">Front-end developer for Careflow Platform</div>
                     </div>
                     <hr/>
                 </li>
