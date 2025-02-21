@@ -1,0 +1,11 @@
+.about {
+  @apply p-6;
+
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+
+  p {
+    @apply text-gray-300 mt-2;
+  }
+}

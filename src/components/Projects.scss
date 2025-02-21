@@ -1,0 +1,15 @@
+.projects {
+  @apply p-6;
+
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+
+  ul {
+    @apply list-disc list-inside text-gray-300 mt-2;
+
+    li {
+      @apply mt-1;
+    }
+  }
+}
