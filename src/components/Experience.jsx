@@ -2,7 +2,7 @@ import "./Experience.scss";
 
 function Experience() {
     return (
-        <div className="experience flex flex-col items-center pt-2 pb-6">
+        <div className="experience flex flex-col items-center px-4 pt-2 pb-6">
             <h2 className="text-2xl font-bold mb-6">Experience</h2>
             <ul className="timeline timeline-vertical w-full max-w-lg md:max-w-3/5">
                 <li>
