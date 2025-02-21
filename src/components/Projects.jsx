@@ -21,11 +21,15 @@ function Projects() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <div>
+                        <div className="flex flex-col gap-1">
                             <h3 className="text-2xl font-bold">termiknow</h3>
-                            <span className="text-xs bg-zinc-400 text-white px-2 py-1 rounded-md">nwHacks (Hackathon)</span>
+                            <div className="flex gap-2">
+                                <span className="text-xs bg-zinc-400 text-white px-2 py-1 rounded-md">nwHacks (Hackathon)</span>
+                                <span className="text-xs bg-zinc-400 text-white px-2 py-1 rounded-md">Jan 2025</span>
+                            </div>
                         </div>
-                        <div className="">Developed termiknow, an offline terminal search tool in Python with fuzzy and vector
+                        <div className="">Developed termiknow, an offline terminal search tool in Python with fuzzy and
+                            vector
                             search using Chroma DB. Built a dynamic UI with Textual and Rich.
                         </div>
                         <div className="font-semibold">Awards: 1st place among 673 participants, Warp Sponsor Prize for
