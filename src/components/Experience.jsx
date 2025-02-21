@@ -2,7 +2,7 @@ import "./Experience.scss";
 
 function Experience() {
     return (
-        <div className="experience flex flex-col items-center px-4">
+        <div className="experience flex flex-col items-center pt-2 pb-6">
             <h2 className="text-2xl font-bold mb-6">Experience</h2>
             <ul className="timeline timeline-vertical w-full max-w-lg md:max-w-3/5">
                 <li>
@@ -60,6 +60,11 @@ function Experience() {
                     <div className="timeline-start timeline-box">
                         <div className="font-bold text-base">Software Engineer Intern @ Excelar</div>
                         <div className="mt-2">Front-end developer for Careflow Platform</div>
+                        <div className="mt-1">
+                            Developed front-end features for healthcare analytics timeline in an Agile Scrum environment,
+                            implementing UX designs, enhancing notifications, and visualizing healthcare data using
+                            Angular, NgRx, RxJS, D3.js, TypeScript, and Tailwind.
+                        </div>
                     </div>
                     <hr/>
                 </li>

@@ -4,6 +4,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import "./App.scss";
+import Footer from "./components/Footer.jsx";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         <Route path="/" element={<About />} />
                     </Routes>
                 </div>
+                <Footer />
             </div>
         </BrowserRouter>
     );
