@@ -11,15 +11,15 @@ function Projects() {
                     {/*<img src="/termiknow-logo.png" className="max-w-md rounded-lg shadow-2xl" alt="Termiknow"/>*/}
                     <div className="carousel rounded-box max-w-sm">
                         <div className="carousel-item w-full h-auto">
-                            <img src="/termiknow-light.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/termiknow-light.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Termiknow Light Mode"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/termiknow-default.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/termiknow-default.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Termiknow Default Mode"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/termiknow-dark.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/termiknow-dark.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Termiknow Dark Mode"/>
                         </div>
                     </div>
@@ -57,16 +57,24 @@ function Projects() {
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="carousel rounded-box max-w-sm">
                         <div className="carousel-item w-full h-auto">
-                            <img src="/toasters-welcome.jpg" className="h-full w-auto max-w-full object-contain"
-                                 alt="Termiknow Light Mode"/>
+                            <img src="/img/project/toasters-welcome.jpg" className="h-full w-auto max-w-full object-contain"
+                                 alt="Toasters Welcome"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/toasters-login.png" className="h-full w-auto max-w-full object-contain"
-                                 alt="Termiknow Default Mode"/>
+                            <img src="/img/project/toasters-login.png" className="h-full w-auto max-w-full object-contain"
+                                 alt="Toasters Login"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/toasters-home.png" className="h-full w-auto max-w-full object-contain"
-                                 alt="Termiknow Dark Mode"/>
+                            <img src="/img/project/toasters-home.png" className="h-full w-auto max-w-full object-contain"
+                                 alt="Toasters Home"/>
+                        </div>
+                        <div className="carousel-item w-full h-auto">
+                            <img src="/img/project/toasters-make-toast.png" className="h-full w-auto max-w-full object-contain"
+                                 alt="Toasters Make Toast"/>
+                        </div>
+                        <div className="carousel-item w-full h-auto">
+                            <img src="/img/project/toasters-toast.png" className="h-full w-auto max-w-full object-contain"
+                                 alt="Toasters Toast"/>
                         </div>
                     </div>
 
@@ -79,13 +87,13 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            Built a platform for customers to send appreciation messages to Arc'teryx employees.
+                            Built a platform for customers to send appreciation messages ("toasts") to Arc'teryx employees.
                             Developed the front-end with React and Tailwind CSS, and the back-end with Express and
                             MongoDB.
                             Integrated Twilio for SMS notifications.
                         </div>
                         <div className="flex gap-1">
-                        <a href="https://devpost.com/software/toasters"
+                            <a href="https://devpost.com/software/toasters"
                                className="btn btn-ghost w-fit btn-sm flex items-center gap-2">
                                 <img src="/icons/devpost.png" className="h-6" alt="Devpost"/>
                             </a>

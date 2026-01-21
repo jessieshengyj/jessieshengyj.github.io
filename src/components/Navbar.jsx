@@ -8,7 +8,7 @@ function Navbar() {
         <div className="navbar bg-base-100 pl-4">
             <div className="flex-1">
                 <img
-                    src="/my-icon.png"
+                    src="/icons/my-icon.png"
                     alt="Logo"
                     className="h-10 w-auto cursor-pointer"
                     onClick={() => navigate("/")}
