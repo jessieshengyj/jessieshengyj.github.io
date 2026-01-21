@@ -1,11 +1,27 @@
 .experience {
-  @apply p-6;
+  @apply flex flex-col items-center px-4 pt-4 pb-8;
 
   h2 {
-    @apply text-2xl font-semibold;
+    @apply text-3xl font-bold mb-8;
   }
 
-  p {
-    @apply text-gray-300 mt-2;
+  .timeline-box {
+    @apply bg-base-100 p-5 rounded-xl shadow-sm transition-all duration-300;
+
+    &:hover {
+      @apply shadow-md -translate-y-0.5;
+    }
+  }
+
+  .experience-desc {
+    @apply text-gray-300 mt-3 leading-relaxed;
+  }
+
+  .timeline-middle svg {
+    @apply text-primary h-5 w-5;
+  }
+
+  hr {
+    @apply bg-base-300;
   }
 }
