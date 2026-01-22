@@ -11,15 +11,15 @@ function Projects() {
                     {/*<img src="/termiknow-logo.png" className="max-w-md rounded-lg shadow-2xl" alt="Termiknow"/>*/}
                     <div className="carousel rounded-box max-w-sm">
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/termiknow-light.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/termiknow/termiknow-light.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Termiknow Light Mode"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/termiknow-default.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/termiknow/termiknow-default.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Termiknow Default Mode"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/termiknow-dark.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/termiknow/termiknow-dark.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Termiknow Dark Mode"/>
                         </div>
                     </div>
@@ -57,23 +57,23 @@ function Projects() {
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="carousel rounded-box max-w-sm">
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/toasters-welcome.jpg" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/toasters/toasters-welcome.jpg" className="h-full w-auto max-w-full object-contain"
                                  alt="Toasters Welcome"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/toasters-login.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/toasters/toasters-login.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Toasters Login"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/toasters-home.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/toasters/toasters-home.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Toasters Home"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/toasters-make-toast.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/toasters/toasters-make-toast.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Toasters Make Toast"/>
                         </div>
                         <div className="carousel-item w-full h-auto">
-                            <img src="/img/project/toasters-toast.png" className="h-full w-auto max-w-full object-contain"
+                            <img src="/img/project/toasters/toasters-toast.png" className="h-full w-auto max-w-full object-contain"
                                  alt="Toasters Toast"/>
                         </div>
                     </div>
